@@ -4,6 +4,7 @@ const Loader = () => {
     return (
         <>
 
+
             <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50">
                 <div className="text-center">
                     <svg
@@ -22,10 +23,9 @@ const Loader = () => {
                             fill="currentFill"
                         />
                     </svg>
-                    <span className="text-white text-xl">Loading... Pls wait</span>
+                    <span className="text-white text-lg">Please wait while the content loads for the first time. <br /> This may take a little longer as we are using a free service on Render.</span>
                 </div>
             </div>
-
 
 
 
